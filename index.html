@@ -1,0 +1,76 @@
+<!--Wordle Game, simple game made from scratch on JS by William (@GmR08 on github)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wordle</title>
+    <script src="js/dictionary.js"></script>
+    <script src="js/wordle.js"></script>
+  </head>
+  <body>
+    <header>
+      <p id="title">WORDLE</p>
+    </header>
+
+    <div id="row">
+      <div id="box00"><p id="00"></p></div>
+      <div id="box01"><p id="01"></p></div>
+      <div id="box02"><p id="02"></p></div>
+      <div id="box03"><p id="03"></p></div>
+      <div id="box04"><p id="04"></p></div>
+    </div>
+
+    <div id="row">
+      <div id="box10"><p id="10"></p></div>
+      <div id="box11"><p id="11"></p></div>
+      <div id="box12"><p id="12"></p></div>
+      <div id="box13"><p id="13"></p></div>
+      <div id="box14"><p id="14"></p></div>
+    </div>
+
+    <div id="row">
+      <div id="box20"><p id="20"></p></div>
+      <div id="box21"><p id="21"></p></div>
+      <div id="box22"><p id="22"></p></div>
+      <div id="box23"><p id="23"></p></div>
+      <div id="box24"><p id="24"></p></div>
+    </div>
+
+    <div id="row">
+      <div id="box30"><p id="30"></p></div>
+      <div id="box31"><p id="31"></p></div>
+      <div id="box32"><p id="32"></p></div>
+      <div id="box33"><p id="33"></p></div>
+      <div id="box34"><p id="34"></p></div>
+    </div>
+
+    <div id="row">
+      <div id="box40"><p id="40"></p></div>
+      <div id="box41"><p id="41"></p></div>
+      <div id="box42"><p id="42"></p></div>
+      <div id="box43"><p id="43"></p></div>
+      <div id="box44"><p id="44"></p></div>
+    </div>
+
+    <div id="row">
+      <div id="box50"><p id="50"></p></div>
+      <div id="box51"><p id="51"></p></div>
+      <div id="box52"><p id="52"></p></div>
+      <div id="box53"><p id="53"></p></div>
+      <div id="box54"><p id="54"></p></div>
+    </div>
+
+    <div id="buttons">
+      <input type="text" id="insert" placeholder="Insert word..." /><br />
+      <button id="boton" onclick="checkWord();">Guess...</button>
+    </div>
+
+    <div id="label">
+      <p id="message"></p>
+    </div>
+  </body>
+</html>

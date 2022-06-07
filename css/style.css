@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+header{
+    display: flex;
+
+    padding: auto;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    margin-top: 1cm;
+
+    height: 2cm;
+    width: 8cm;
+    background-color: #ADDFFF;
+
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+body{
+
+    background: url(../img/wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#title{
+
+    color: #2A4B7C;
+
+}
+
+p{
+
+    margin: auto;
+    color: black;
+
+    font-size: 1cm;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box00,#box10,#box20,#box30,#box40,#box50,
+#box01,#box11,#box21,#box31,#box41,#box51,
+#box02,#box12,#box22,#box32,#box42,#box52,
+#box03,#box13,#box23,#box33,#box43,#box53,
+#box04,#box14,#box24,#box34,#box44,#box54{
+
+    display: flex;
+
+    margin: 2px;
+    padding: auto;
+
+    height: 1.5cm;
+    width: 1.5cm;
+
+    border: solid 1px;
+
+    background-color: white;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1cm;
+
+    border-radius: 10px;
+
+}
+
+#row{
+
+    display: flex;
+    padding: auto;
+
+    justify-content: center;
+
+}
+
+#insert{
+
+    height: 1.2cm;
+    width: 6cm;
+
+    margin-right: 5px;
+    font-size: 0.5cm;
+    text-align: center;
+
+    border: 1px solid;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    border-radius: 10px;
+}
+
+#boton{
+
+
+    height: 1.4cm;
+    width: 4cm;
+
+    background-color: #ADDFFF;
+    color: #2A4B7C;
+
+    font-size: 0.6cm;
+
+    margin-left: 15px;
+
+    border: 1px solid;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#boton:hover{
+    background-color: rgb(62, 237, 62);
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#buttons{
+
+    display: flex;
+    margin: auto;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+}
+
+#label{
+
+    display: flex;
+
+    margin: auto;
+
+    height: 1.2cm;
+    width: 12cm;
+
+    background-color: #ADDFFF;
+
+    margin-top: 20px;
+
+    justify-content: center;
+
+    border: 1px solid;
+    border-radius: 15px;
+
+    opacity: 0;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#message{
+
+    font-size: 20px;
+    color: #2A4B7C;
+}
